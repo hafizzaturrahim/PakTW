@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/cardview_light_background">
+    <!--<TextView-->
+        <!--android:id="@+id/label"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginTop="100dp"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:textSize="45dp"-->
+        <!--android:text="PENYAKIT"-->
+        <!--android:textStyle="bold"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_below="@id/label"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="12dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:text="Edit fragment_disease.xml to change the appearance" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Penyakit :"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_disease"
+        android:text="name disease"
+        android:layout_marginLeft="30dp"
+        android:textSize="16dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Penyebab/ Ciri-ciri :"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/penyebab_disease"
+        android:text="detail event"
+        android:layout_marginLeft="30dp"
+        android:textSize="16dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gejala :"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gejala_disease"
+        android:text="detail event"
+        android:layout_marginLeft="30dp"
+        android:textSize="16dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cara Penanganan :"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pengendalian"
+        android:text="detail event"
+        android:layout_marginLeft="30dp"
+        android:textSize="16dp"/>
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text=" : "/>-->
+
+</LinearLayout>

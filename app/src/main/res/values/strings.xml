@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">PakTW</string>
+    <string name="action_search">Search</string>
+    <string name="back_to_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- title nav drawer -->
+    <string name="nav_item_home">Beranda</string>
+    <string name="nav_item_calendar">Kalender</string>
+    <string name="nav_item_disease">Penyakit</string>
+    <string name="nav_item_history">History</string>
+    <string name="nav_item_cuaca">Cuaca</string>
+    <string name="nav_logout">Logout</string>
+
+    <!-- title page -->
+    <string name="title_home">Beranda</string>
+    <string name="title_calendar">Kalender</string>
+    <string name="title_disease">Penyakit</string>
+    <string name="title_history">History</string>
+    <string name="title_cuaca">Cuaca</string>
+
+    <string name="title_detail">Detail Kegiatan</string>
+
+    <!-- login page -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_name">Username</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Belum jadi member? Sign up now.</string>
+    <string name="btn_link_to_login">Sudah memiliki username? Login Disini</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+</resources>

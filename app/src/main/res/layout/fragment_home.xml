@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.paktw.activity.HomeActivity"
+    android:background="#d9d9d9">
+
+    <TextView
+        android:id="@+id/textRencana"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Rencana Kegiatan"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+        <!--android:divider="#8b7878"/>-->
+
+    <TextView
+        android:id="@+id/keterangan"
+        android:layout_centerInParent="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical|center_horizontal"/>
+
+    <!--<EditText-->
+        <!--android:id="@+id/etDate"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:gravity="center_vertical|center|center_horizontal"-->
+        <!--android:editable="false"-->
+        <!--android:ems="10"-->
+        <!--android:focusable="true"-->
+        <!--android:focusableInTouchMode="false"-->
+        <!--android:hint="Date Picker"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="tes"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_centerHorizontal="true">-->
+
+        <!--<requestFocus />-->
+    <!--</EditText>-->
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv"
+        android:layout_below="@+id/textRencana" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_add"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+
+</RelativeLayout>
